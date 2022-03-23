@@ -1,0 +1,292 @@
+html {
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: 200;
+    display: inline-block;
+    font-size: 1.3rem;
+    position: fixed;
+    left: 55px;
+    top: 7px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(58, 58, 58);
+}
+
+h3 {
+    font-size: 2.2rem;
+    color: rgb(58, 58, 58);
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: rgb(58, 58, 58);
+    margin-bottom: 0px;
+}
+
+p {
+    color: rgb(58, 58, 58);
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0px;
+    height: 64px;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    z-index: 100;
+}
+
+nav {
+    display: inline-block;
+    position: fixed;
+    right: 24px;
+    top: 7px;
+
+}
+
+li {
+    display: inline-block;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a .visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#logo {
+    display: inline-block;
+    height: 40px;
+    position: fixed;
+    top: 16px;
+    left: 24px;
+}
+
+/*Banner*/
+
+.banner {
+    background-color: lightgray;
+    position: relative;
+    top: 64px;
+    display: inline-flex;
+    width: 100%;
+}
+
+#bannerimage {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+.text {
+    height: 100%;
+    flex-flow: column wrap;
+    position: relative;
+    top: 150px;
+}
+
+.banner p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+}
+
+button {
+    border: 0px;
+    border-radius: 0px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-size: 1.5rem;
+    padding: 8px;
+    width: 375px;
+    margin-top: 24px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/*Information*/
+
+.information {
+    position: relative;
+    top: 64px;
+    display: inline-flex;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.quote {
+    width: 60%;
+    margin: 32px 0px 32px 24px;
+}
+
+#practicing {
+    width: 95%;
+    margin-bottom: 32px;
+}
+
+.quote h3 {
+    margin-top: 0px;
+}
+
+.quote p {
+    width: 88%;
+    color: gray;
+    line-height: 1.5em;
+}
+
+.info {
+    display: inline-flex;
+    width: 40%;
+    flex-flow: column wrap;
+    border-left: solid 1px lightgray;
+    padding-top: 32px;
+}
+
+.info img {
+    width: 35%;
+    height: auto;
+    margin: 20px;
+}
+
+.info p {
+    color: gray;
+}
+
+.info a {
+    color: dodgerblue;
+}
+
+.info a:hover {
+    color: skyblue;
+}
+
+.infotext {
+    padding-top: 30px;
+}
+
+.orientation {
+    display: inline-flex;
+    border-bottom: solid 1px lightgray;
+}
+
+
+.campus {
+    display: inline-flex;
+    border-bottom: solid 1px lightgray;
+}
+
+.guest {
+    display: inline-flex;
+    background-color: lightgrey;
+}
+
+/*Learning*/
+
+.learning {
+    position: relative;
+    top: 64px;
+    background-color: lightgray;
+    display: inline-flex;
+    width: 100%;
+    flex-flow: column wrap;
+}
+
+.learning h3 {
+    text-align: center;
+    margin: 32px;
+}
+
+.courses {
+    display: inline-flex;
+    flex-flow: row wrap;
+    margin: 0px 72px;
+    justify-content: space-around;
+}
+
+.course {
+    background-color: white;
+    max-width: 400px;
+    margin-bottom: 32px;
+    height: 450px;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h4 {
+    margin: 24px;
+}
+
+.course p {
+    margin: 0px 24px 24px 24px;
+    color: gray;
+}
+
+/*Thesis*/
+
+.thesis {
+    position: relative;
+    top: 64px;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: column wrap;
+    background-color: rgb(240, 240, 240);
+}
+
+.thesis h3 {
+    text-align: center;
+}
+
+.thesiscontent {
+    display: inline-flex;
+    flex-flow: row wrap
+}
+
+.reimagine {
+    width: 60%;
+    margin: 32px 24px;
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+
+video {
+    width: 100%;
+}
+
+.examples {
+    margin-top: 32px;
+    width: 40%;
+    display: inline-flex;
+    flex-flow: row wrap;
+}
+
+.example {
+    padding: 16px;
+}
+
+.example img {
+    width: 200px;
+}
