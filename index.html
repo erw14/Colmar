@@ -7,13 +7,19 @@
         <header>
             <img src="Resources/Images/ic-logo.svg" id="logo" alt="Colmar Academy's logo">
             <h1><strong>COLMAR</strong>ACADEMY</h1>
-            <nav class="header">
+            <nav class="header" id="desktop">
                 <ul>
                     <li><a href="index.html" id="campus">On campus</a></li>
                     <li><a href="index.html" id="online">Online</a></li>
                     <li><a href="index.html" id="companies">For companies</a></li>
                     <li><a href="index.html" id="signin">Sign in</a></li>
                 </ul>
+            </nav>
+            <nav class="header" id="mobile">
+                <img src="Resources/Images/ic-logo.svg" id="mobilelogo">
+                <a href="index.html"><img src="Resources/Images/ic-on-campus.svg"></a>
+                <a href="index.html"><img src="Resources/Images/ic-online.svg"></a>
+                <a href="index.html"><img src="Resources/Images/ic-login.svg"></a>
             </nav>
         </header>
 
@@ -33,14 +39,15 @@
             <!--Information-->
 
             <div class="information">
-                <div class="quote">
+                <div class="quote" id="desktop">
                     <img src="Resources/Images/information-main.jpg" id="practicing" alt="Student reading outside">
                     <h3>It doesn't hurt to keep practicing</h3>
                     <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."<br><br><br><strong>Emanuel, Sr Strategist at Hiring.com</strong></p>
                 </div>
                 <div class="info">
                     <div class="orientation">
-                        <img src="Resources/Images/information-orientation.jpg" id="orientation" alt="Bird's eye view of people walking outside">
+                        <img src="Resources/Images/information-orientation.jpg" id="desktop" alt="Bird's eye view of people walking outside">
+                        <img src="Resources/Images/information-orientation-mobile.jpg" id="mobile" alt="Bird's eye view of people walking outside">
                         <div class="infotext">
                             <h4>Orientation date</h4>
                             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -48,7 +55,8 @@
                         </div>
                     </div>
                     <div class="campus">
-                        <img src="Resources/Images/information-campus.jpg" id="campus" alt="Students in a study room">
+                        <img src="Resources/Images/information-campus.jpg" id="desktop" alt="Students in a study room">
+                        <img src="Resources/Images/information-campus-mobile.jpg" id="mobile" alt="Students in a study room">
                         <div class="infotext">
                             <h4>Our campus</h4>
                             <p>Find which campus is close by you</p>
@@ -56,7 +64,8 @@
                         </div>
                     </div>
                     <div class="guest">
-                        <img src="Resources/Images/information-guest-lecture.jpg" id="guest" alt="Image of Oliver Sack, the guest lecturer">
+                        <img src="Resources/Images/information-guest-lecture.jpg" id="desktop" alt="Image of Oliver Sack, the guest lecturer">
+                        <img src="Resources/Images/information-guest-lecture-mobile.jpg" id="mobile" alt="Image of Oliver Sack, the guest lecturer">
                         <div class="infotext">
                             <h4>Our guest lecture</h4>
                             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -72,34 +81,34 @@
                 <h3>Start learning</h3>
                 <div class="courses">
                     <div class="course">
-                        <img src="Resources/Images/course-software.jpg" id="software" alt="Computer set up with two screens">
+                        <img src="Resources/Images/course-software.jpg" id="desktop" alt="Computer set up with two screens">
                         <h4>Software engineering</h4>
-                        <p>COURSES<br><br>Web development, Mobile Development, iOT, APIs</p>
+                        <p id="desktop">COURSES<br><br>Web development, Mobile Development, iOT, APIs</p>
                     </div>
                     <div class="course">
-                        <img src="Resources/Images/course-computer-art.jpg" id="computer" alt="POV of someone holding a smart phone">
+                        <img src="Resources/Images/course-computer-art.jpg" id="desktop" alt="POV of someone holding a smart phone">
                         <h4>Computer art</h4>
-                        <p>COURSES<br><br>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        <p id="desktop">COURSES<br><br>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
                     </div>
                     <div class="course">
-                        <img src="Resources/Images/course-design.jpg" id="design" alt="Someone holding a vintage camera">
+                        <img src="Resources/Images/course-design.jpg" id="desktop" alt="Someone holding a vintage camera">
                         <h4>Design</h4>
-                        <p>COURSES<br><br>User Experience Design, User Research, Visual Design</p>
+                        <p id="desktop">COURSES<br><br>User Experience Design, User Research, Visual Design</p>
                     </div>
                     <div class="course">
-                        <img src="Resources/Images/course-data.jpg" id="data" alt="Open laptop sat on a table">
+                        <img src="Resources/Images/course-data.jpg" id="desktop" alt="Open laptop sat on a table">
                         <h4>Data</h4>
-                        <p>COURSES<br><br>Data Science, Big Data, SQL, Data Visualization</p>
+                        <p id="desktop">COURSES<br><br>Data Science, Big Data, SQL, Data Visualization</p>
                     </div>
                     <div class="course">
-                        <img src="Resources/Images/course-business.jpg" id="business" alt="Chess pieces on a board">
+                        <img src="Resources/Images/course-business.jpg" id="desktop" alt="Chess pieces on a board">
                         <h4>Business</h4>
-                        <p>COURSES<br><br>Product Development, Business Development, Startup</p>
+                        <p id="desktop">COURSES<br><br>Product Development, Business Development, Startup</p>
                     </div>
                     <div class="course">
-                        <img src="Resources/Images/course-marketing.jpg" id="marketing" alt="Smart watch on someone's wrist">
+                        <img src="Resources/Images/course-marketing.jpg" id="desktop"  alt="Smart watch on someone's wrist">
                         <h4>Marketing</h4>
-                        <p>COURSES<br><br>Analytics, Content Marketing, Mobile Marketing</p>
+                        <p id="desktop">COURSES<br><br>Analytics, Content Marketing, Mobile Marketing</p>
                     </div>
                 </div>
             </div>
@@ -111,19 +120,23 @@
                 <div class="thesiscontent">
                     <div class="reimagine">
                         <video src="Resources/Videos/thesis.mp4" id="thesis" playsinline autoplay muted loop>Video not supported</video>
-                        <h4>Reimagine urban</h4>
-                        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+                        <h4 id="desktop">Reimagine urban</h4>
+                        <p id="desktop">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                     </div>
-                    <div class="examples">
-                        <div class="example">
-                            <img src="Resources/Images/thesis-fisma.jpg" id="fisma" alt="Bird's eye view of someone studying">
-                            <h4>Fisma: Design and Prototype</h4>
-                            <p>Designer showcase of new prototype product</p>
+                    <div class="examples" id="desktop">
+                        <div class="example" id="fisma">
+                            <img src="Resources/Images/thesis-fisma.jpg" id="fismaimg" alt="Bird's eye view of someone studying">
+                            <div class="exampletext">
+                                <h4>Fisma: Design and Prototype</h4>
+                                <p>Designer showcase of new prototype product</p>
+                            </div>
                         </div>
                         <div class="example">
                             <img src="Resources/Images/thesis-now-and-then.jpg" id="now" alt="The Empire State Building">
-                            <h4>Now and then</h4>
-                            <p>Research study about New York</p>
+                            <div class="exampletext" id="nowandthen">
+                                <h4>Now and then</h4>
+                                <p>Research study about New York</p>
+                            </div>
                         </div>
                     </div>
                 </div>
